@@ -2,7 +2,7 @@
 
 Given /the following movies exist/ do |movies_table|
   movies_table.hashes.each do |movie|   
-	Movie.create!(movie)
+	Movies.create!(movie)
   end
   #flunk "Unimplemented"
 end

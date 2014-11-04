@@ -23,7 +23,7 @@ Background: movies have been added to database
 
 Scenario: restrict to movies with 'PG' or 'R' ratings
 	Given I am on the RottenPotatoes home page
-	When I check the following ratings: PG, R
+	When the following ratings are checked: PG, R
 		And I click refresh
   # enter step(s) to check the 'PG' and 'R' checkboxes
   # enter step(s) to uncheck all other checkboxes
